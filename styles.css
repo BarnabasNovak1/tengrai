@@ -59,13 +59,33 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
+.video-title {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 20px;
+    display: contents;
+    align-items: center;
+    color: white;
+    font-size: 30px; 
+    border-radius: 8px; 
+}
+
+.title-logo {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+
 .video-section {
     position: relative;
     overflow: hidden;
-    height: 95vh;
+    height: 95vh; 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end; 
 }
 
 .background-video {
@@ -77,7 +97,7 @@ nav ul li a:hover {
     max-width: none;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    z-index: 0;
+    z-index: 0; /* Set below overlay */
 }
 
 .video-overlay {
@@ -87,21 +107,17 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 1; 
 }
 
 .video-overlay-content {
     position: absolute;
-    top: 50%;
+    width: 100%;
+    bottom: 0px; 
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    transform: translateX(-50%); 
+    z-index: 1; 
     text-align: center;
-}
-
-.video-title {
-    font-size: 4rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .call-to-action {
