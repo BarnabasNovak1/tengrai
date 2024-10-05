@@ -61,14 +61,13 @@ nav ul li a:hover {
 
 .video-title {
     position: absolute;
-    bottom: 20px; 
+    bottom: 50px; 
     left: 20px; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.4); 
     display: contents;
     align-items: center;
     color: white;
-    font-size: 30px; 
+    font-size: 25px; 
     border-radius: 8px; 
 }
 
@@ -113,7 +112,7 @@ nav ul li a:hover {
 .video-overlay-content {
     position: absolute;
     width: 100%;
-    bottom: 0px; 
+    bottom: 50px; 
     left: 50%;
     transform: translateX(-50%); 
     z-index: 1; 
@@ -123,7 +122,7 @@ nav ul li a:hover {
 .call-to-action {
     font-size: 1.5rem;
     margin-top: 1rem;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .moving-background {
